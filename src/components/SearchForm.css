@@ -1,5 +1,5 @@
 .inputa {
-background-color: #261f85a4;
+    background-color: #261f85a4;
     position: relative;
     overflow: hidden;
     margin: 0;
@@ -8,6 +8,7 @@ background-color: #261f85a4;
     font-size: 15px;
     display:block;
     margin-bottom: 10px;
+    border-radius: 10px;
   }
   
   .inputa::before {
@@ -19,7 +20,7 @@ background-color: #261f85a4;
     margin: auto;
     animation: rotate6234 2.5s ease-in-out infinite;
     z-index: -1;
-    background-image: conic-gradient(from 0deg at 50% 50%, #4862c7a9 0%, rgb(73, 60, 194) 25%, #ae95e9e5 25%);
+    background-image: conic-gradient(from 0deg at 50% 50%, #7f49c5f5 0%, rgb(73, 60, 194) 25%, #ae95e9e5 25%);
   }
   
   .inputa > input {
