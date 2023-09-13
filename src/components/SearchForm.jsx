@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./SearchForm.css";
 
 function SearchForm({ onSearch }) {
   const [city, setCity] = useState("");
@@ -15,12 +16,15 @@ function SearchForm({ onSearch }) {
     <div>
       <form onSubmit={handleSubmit}>
         <input
+          className="inputa"
           type="text"
           placeholder="Digite o nome da cidade"
           value={city}
           onChange={handleInputChange}
         />
-        <button type="submit">Pesquisar</button>
+        <button className="Pesquisa" type="submit">
+          Pesquisar
+        </button>
       </form>
     </div>
   );
