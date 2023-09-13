@@ -25,7 +25,7 @@ function App() {
   return (
     <div className="App">
       <h1>Aplicativo de previsão do tempo!</h1>
-      <SearchForm onSearch={fetchWeatherData} />
+      <SearchForm onSearch={fetchWeatherData} className="containerInput" />
       {error && <p>{error}</p>}
       {weatherData && <WeatherDisplay weatherData={weatherData} />}
     </div>

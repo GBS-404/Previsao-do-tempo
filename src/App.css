@@ -5,3 +5,17 @@
   text-align: center;
 }
 
+.App{
+  background: linear-gradient(to bottom, #007bff, #800080); /* Gradiente de azul a roxo */
+  width: 100vw; /* Defina a largura para ocupar 100% da largura da tela */
+  height: 100vh; /* Defina a altura para ocupar 100% da altura da tela */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff; /* Defina a cor do texto para garantir que seja legível no gradiente */
+  margin: 0; /* Remova a margem padrão do corpo da página */
+  padding: 0; /* Remova o preenchimento padrão do corpo da página */
+}
+
+
